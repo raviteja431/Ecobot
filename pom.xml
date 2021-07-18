@@ -8,7 +8,7 @@
     <groupId>com.microsoft.bot.sample</groupId>
     <artifactId>bot-echo</artifactId>
     <version>sample</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>This package contains a Java Bot Echo sample using Spring Boot.</description>
