@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'rtdsRealtorbotdemo'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_be0a4c465fe34437b354a0c3535122a6 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_edb16f99d4e24721b1ec0772da35799d }}
         package: '*.war'
