@@ -19,7 +19,7 @@ jobs:
     - name: Set up Java version
       uses: actions/setup-java@v1
       with:
-        java-version: '11'
+        java-version: '8'
 
     - name: Build with Maven
       run: mvn clean install
@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'rtdsRealtorbotdemo'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_edb16f99d4e24721b1ec0772da35799d }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6aa827fff5374535ab9d266486d312a6 }}
         package: '*.war'
